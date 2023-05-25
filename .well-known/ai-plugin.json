@@ -1,0 +1,18 @@
+{
+  "schema_version": "v1",
+  "name_for_model": "Diagrams",
+  "name_for_human": "Diagrams",
+  "description_for_model": "{{prompt}}",
+  "description_for_human": "Create and display diagrams from kroki.io or using networkx and matplotlib.",
+  "auth": {
+    "type": "none"
+  },
+  "api": {
+    "type": "openapi",
+    "url": "{{base_url}}/static/openapi.json",
+    "has_user_authentication": false
+  },
+  "logo_url": "{{base_url}}/static/logo.png",
+  "contact_email": "ruze@regression.io",
+  "legal_info_url": "{{base_url}}/static/LICENSE"
+}
